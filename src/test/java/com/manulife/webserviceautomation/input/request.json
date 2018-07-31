@@ -1,0 +1,1 @@
+{"query":"query getSingleCourse($courseID: Int!) {\n    course(id: $courseID) {\n        title\n        author\n        description\n        topic\n        url\n    }\n}\n\n","variables":{"courseID":1},"operationName":"getSingleCourse"}
